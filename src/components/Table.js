@@ -62,6 +62,7 @@ export default function Table(game) {
     }
 
     queueRef.current = game.G.queue;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [game.G.queue]);
 
   const attemptBuzz = () => {
