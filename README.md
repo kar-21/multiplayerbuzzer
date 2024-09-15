@@ -2,8 +2,6 @@
 
 Simple multiplayer buzzer system
 
-https://multibuzz.app
-
 Built using Create React App and boardgame.io
 
 Please open an issue if you experience a bug or have product feedback!

@@ -8,9 +8,9 @@
     "node": "16.13.0"
   },
   "scripts": {
-    "start": "node -r esm src/server.js",
-    "dev": "concurrently \"PORT=4000 yarn client\" \"PORT=4001 yarn start\"",
-    "client": "react-scripts start",
+    "start": "set PORT=4001 && node -r esm src/server.js",
+    "dev": "concurrently \"yarn client\" \"yarn start\"",
+    "client": "set PORT=4000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
